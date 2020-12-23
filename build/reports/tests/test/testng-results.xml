@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27920" started-at="2020-12-23T15:25:40Z" finished-at="2020-12-23T15:26:08Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Drag_and_Drop.DragDrop()[pri:0, instance:com.OrangeHRM.Drag_and_Drop@2482b3a2]" name="DragDrop" class="com.OrangeHRM.Drag_and_Drop"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Double_Click_Example.DoubleClick()[pri:0, instance:com.OrangeHRM.Double_Click_Example@6964ea08]" name="DoubleClick" class="com.OrangeHRM.Double_Click_Example"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="27920" started-at="2020-12-23T15:25:40Z" finished-at="2020-12-23T15:26:08Z">
+      <class name="com.OrangeHRM.Drag_and_Drop">
+        <test-method status="PASS" signature="DragDrop()[pri:0, instance:com.OrangeHRM.Drag_and_Drop@2482b3a2]" name="DragDrop" duration-ms="18435" started-at="2020-12-23T20:55:40Z" finished-at="2020-12-23T20:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragDrop -->
+      </class> <!-- com.OrangeHRM.Drag_and_Drop -->
+      <class name="com.OrangeHRM.Double_Click_Example">
+        <test-method status="PASS" signature="DoubleClick()[pri:0, instance:com.OrangeHRM.Double_Click_Example@6964ea08]" name="DoubleClick" duration-ms="9464" started-at="2020-12-23T20:55:58Z" finished-at="2020-12-23T20:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleClick -->
+      </class> <!-- com.OrangeHRM.Double_Click_Example -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
